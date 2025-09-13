@@ -103,7 +103,7 @@ agent=graph.compile()
 
 if __name__=='__main__':
     result=agent.invoke({
-            "user_prompt": "Build a colourful modern todo app in html css and js"
+            "user_prompt": "Build a colourful modern todo with stylish ui using react and fastapi backend"
         }
     )
     print("Result",result)
